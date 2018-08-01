@@ -21,6 +21,7 @@ import (
 
 func main() {
 	// server init
+fmt.Printf("hello")
 	if err := cmd.Init(); err != nil {
 		panic(err)
 	}
